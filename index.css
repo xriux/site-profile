@@ -1,0 +1,25 @@
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  padding: 0 10%;
+}
+
+a {
+  color: var(--color-link);
+}
+
+[data-color-mode='light'] {
+  --color-bg: #fff;
+  --color-text: #333;
+  --color-link: #33f;
+}
+
+[data-color-mode='dark'] {
+  --color-bg: #333;
+  --color-text: #ccc;
+  --color-link: #3cc;
+}
+
+.controls {
+  text-align: right;
+}

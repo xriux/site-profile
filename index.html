@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="libs/marked.min.js"></script>
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Profile</h1>
+      <div class="controls">
+        Language:
+        <select id="selLang">
+          <option value="ja">日本語</option>
+          <option value="en">English</option>
+        </select>
+        Color Mode:
+        <select id="selColor">
+          <option value="dark">Dark</option>
+          <option value="light">Light</option>
+        </select>
+      </div>
+    </header>
+    <main>
+      <div id="content"></div>
+    </main>
+    <dialog>Loading...</dialog>
+  </body>
+</html>
